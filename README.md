@@ -1,10 +1,9 @@
 # Hugging Face Transformers Usage Practice
 
 ## Overview
-This repository serves as a practice space for using the Hugging Face Transformers models in various ways on different NLP tasks.
-
+This repository serves as a practice space for using the Hugging Face Transformers models in various ways on different NLP tasks. With the `Pytorch` DL framework. 
 ## From Higher to Lower
-- **[Highest](./highest_level.ipynb)**: By using the **pipeline** high-level API.
+- **[Higher](./highest_level.ipynb)**: By using the **pipeline** high-level API.
 - **[Mid](./mid_level.ipynb)**: By using the **AutoTokenizer**, **AutoModel** and **torch**.
 - **[Lower](./lower_level.ipynb)**: By using `tokenize`, `convert_tokens_to_ids`, `pad_token`, `attention_mask`, `ids to tensors (ids to input_ids)` and `softmax`.
 
